@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="musicplayer.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="musicplayer.html" id="home">HOME</a></li>
+            <li><a href="songs.html" id="songs">SONGS</a></li>
+            <li><a href="artists.html" id="artists">ARTISTS</a></li>
+            <li><a href="albums.html" id="albums">ALBUMS</a></li>
+            <li><a href="favorites.html" id="fav">FAVORITES</a></li>
+        </ul>
+    </div>
+    <div class="note">
+        <h2>MuSIC<br>Is<br>LifE</h2>
+    </div>
+    <div class="play-btn">
+        <p>Click To play</p>
+        <img src="play.png" id="icon">
+    </div>
+
+    <audio class="song">
+        <source src="when-we-pray.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="musicplayer.js"></script>
+</body>
+</html>
